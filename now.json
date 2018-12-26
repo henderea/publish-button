@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "webpack-template",
+    "name": "publish-button",
     "builds": [
         {
             "src": "package.json",
