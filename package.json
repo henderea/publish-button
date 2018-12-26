@@ -1,7 +1,7 @@
 {
   "name": "publish-button",
   "version": "1.0.0",
-  "description": "A publish buttond emo",
+  "description": "A publish button demo",
   "main": "",
   "scripts": {
     "prod": "yarn build && yarn serve:prod",
