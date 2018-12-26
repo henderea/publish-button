@@ -5,6 +5,8 @@ window.jQuery = window.$ = $;
 require('./jquery-ui-1.11.4.min');
 const _ = require('lodash');
 require('./fontawesome-all.min');
+import registerServiceWorker from '@henderea/static-site-builder/registerServiceWorker';
+registerServiceWorker();
 
 var published = false;
 
