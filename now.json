@@ -1,6 +1,7 @@
 {
     "version": 2,
     "name": "publish-button",
+    "alias": "publish-button-demo.henderea.com",
     "public": true,
     "builds": [
         {
