@@ -1,0 +1,47 @@
+#mainDiv {
+    width: 2500px;
+}
+
+#mainTable {
+    border-spacing: 0;
+    tr {
+        td {
+            border: 1px solid black;
+            width: 250px;
+            height: 100px;
+        }
+    }
+}
+
+#topRow {
+    width: 100%;
+    position: relative;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#publishDiv {
+    right: 10px;
+    display: inline-block;
+    position: sticky;
+    text-align: center;
+}
+
+#notifyDiv {
+    font-size: 14px;
+    font-family: Lato;
+    padding: 8px;
+    text-align: center;
+    width: 100px;
+    background: #DDFFDD;
+    color: green;
+    border-color: green;
+    border-radius: 5px;
+    transition: opacity 500ms;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#publishButton {
+    width: 120px;
+}

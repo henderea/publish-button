@@ -1,0 +1,29 @@
+{
+  "name": "publish-button",
+  "version": "1.0.0",
+  "description": "A publish buttond emo",
+  "main": "",
+  "scripts": {
+    "prod": "yarn build && yarn serve:prod",
+    "serve:prod": "serve dist",
+    "serve:dev": "serve build",
+    "start": "concurrently \"yarn serve:dev\" \"yarn watch\" --names \"💻,📦\" --prefix name",
+    "build": "static-site-builder build",
+    "now-build": "static-site-builder build",
+    "watch": "static-site-builder watch"
+  },
+  "author": "henderea",
+  "license": "ISC",
+  "repository": "https://github.com/henderea/publish-button",
+  "devDependencies": {
+    "@henderea/static-site-builder": "^1.1.11",
+    "concurrently": "^4.1.0",
+    "eslint": "^5.10.0",
+    "serve": "^10.1.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "lodash": "^4.17.11"
+  }
+}

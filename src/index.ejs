@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Publish Button Demo</title>
+    </head>
+    <body>
+        <div id="mainDiv">
+            <div id="topRow">
+                <div id="publishDiv">
+                    <div id="notifyDiv" style="opacity: 0;"><i class="far fa-check"></i>&nbsp;<span id="notifyText">Published</span></div>
+                    <div id="publishButton">Publish</div>
+                </div>
+            </div>
+            <table id="mainTable">
+                <% for(var i = 0; i < 10; i++) { %>
+                <tr>
+                    <% for(var j = 0; j < 10; j++) { %>
+                    <td></td>
+                    <% } %>
+                </tr>
+                <% } %>
+            </table>
+        </div>
+    </body>
+</html>
