@@ -1,3 +1,5 @@
+require('./favicon.svg');
+require('./favicon.png');
 require('./jquery-ui-1.11.4.min.css');
 require('./index.scss');
 const $ = require('jquery');
