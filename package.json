@@ -12,7 +12,7 @@
     "now-build": "static-site-builder build",
     "watch": "static-site-builder watch",
     "clean": "rm -rf dist build",
-    "deploy": "now && now alias && now rm publish-button --yes --safe"
+    "deploy": "now --target production && now rm publish-button --yes --safe"
   },
   "author": "henderea",
   "license": "ISC",
